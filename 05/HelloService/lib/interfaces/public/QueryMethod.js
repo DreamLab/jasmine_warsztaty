@@ -3,11 +3,12 @@
  * @copyright Dreamlab Onet.pl sp. z. o o 2012
  */
 
-var JsonRpcMethod = require('core').jsonrpc.JsonRpcMethod;
-var Event = require('core').event.Event;
-var ErrorEvent = require('core').Event.ErrorEvent;
-var Request = require('core').http.Request;
-var Loader = require('core').http.Loader;
+var core          = require('core');
+var JsonRpcMethod = core.jsonrpc.JsonRpcMethod;
+var Event         = core.event.Event;
+var ErrorEvent    = core.event.ErrorEvent;
+var Request       = core.http.Request;
+var Loader        = core.http.Loader;
 
 /**
  * @class Response
@@ -39,7 +40,7 @@ QueryMethod.prototype.execute = function(params) {
     
     loader.addEventListener(Loader.Event.LOADED, this._onLoaderComplete, this);
     loader.addEventListener(Loader.Event.ERROR, this._onLoaderError, this);
-    loader.setTimeout(1000);
+    loader.setTimeout(5000);
     loader.load()
 };
 
