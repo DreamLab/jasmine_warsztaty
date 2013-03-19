@@ -1,0 +1,12 @@
+handler: dl#opal.OpalServer
+appname: HelloService
+servicename: api
+language: javascript
+libs: ['core', 'dl']
+sdk_version: 1
+version: '0.1'
+interfaces:
+  public:
+    authentication: false
+    authorisation: false
+    ssl: false
