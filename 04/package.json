@@ -1,0 +1,21 @@
+{
+  "name": "dog",
+  "version": "0.0.1",
+  "description": "Dog class",
+  "contributors": [
+    "Maciej Jastrzebski <artifipl@gmail.com>",
+    "Slawomir Janecki <janecki@gmail.com>",
+    "Jakub Lekstan <kuebzky@gmail.com>",
+    "Grzegorz Lyczba <grzegorz.lyczba@gmail.com>",
+    "Jakub Jelen <jakub.jelen@gmail.com>"
+  ],
+  "dependencies": {
+    "core": ">=0.9.28",
+    "rewire": "1.0.3"
+  },
+  "main": "lib/index.js",
+  "devDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

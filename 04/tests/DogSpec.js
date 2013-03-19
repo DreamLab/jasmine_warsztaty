@@ -1,5 +1,5 @@
 var rewire = require('rewire');
-var modulePath = '../Dog.js';
+var modulePath = '../lib/Dog.js';
 
 describe('Dog', function () {
     var DogMock;
