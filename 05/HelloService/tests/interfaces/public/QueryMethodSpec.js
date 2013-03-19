@@ -16,8 +16,8 @@ describe('QueryMethod', function () {
         beforeEach(function () {
             /* 
              * 1. wyciagnij Loader z modulu QueryMethod
-             * 2. zasymuluj dispatchEvent z metodzie load() klasy Loader
-             * 3. przechwyc wywolanie dispatchEvent obiektu klasy QueryMethod
+             * 2. zasymuluj dispatchEvent w metodzie load() klasy Loader
+             * 3. przechwyc wywolanie dispatchEvent instancji klasy QueryMethod
              */
         });
 
