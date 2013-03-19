@@ -45,7 +45,7 @@ QueryMethod.prototype.execute = function(params) {
 };
 
 QueryMethod.prototype._onLoaderComplete = function (e) {
-    var retEvent = new Event(JsonRpcMethod.Event.OK, e.data.toJson());
+    var retEvent = new Event(JsonRpcMethod.Event.OK, e.data);
     this.dispatchEvent(retEvent);
 };
 
