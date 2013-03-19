@@ -1,4 +1,4 @@
-var Dog = require('./Dog.js').Dog;
+var Dog = require('./lib/Dog.js').Dog;
 
 
 var dog = new Dog();
