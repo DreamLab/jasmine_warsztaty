@@ -1,5 +1,4 @@
 var Sun = function () {
-    this.time = null;
 };
 
 Sun.prototype.getTime = function () {
